@@ -87,12 +87,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/fonts/Roboto-Regular.ttf",
+              "src/assets/fonts/Roboto-Bold.ttf",
+              "src/assets/fonts/Roboto-Medium.ttf",
+              "src/assets/fonts/Handlee-Regular.ttf"
             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "0c65ab19-141b-42a2-9631-3a5e04180e4e"
   }
 }
