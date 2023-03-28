@@ -7,11 +7,13 @@ import { NavbarComponent } from './navbar/navbar.component';
 
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,

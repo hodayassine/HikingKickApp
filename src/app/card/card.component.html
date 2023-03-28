@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="card" style="width: 20rem;">
+    <div class="card-img-overlay p-0">
+      <img class="card-img" [src]="imageUrl" alt="Card image">
+      <div class="overlay">
+        <p class="card-text">{{subtitle}}</p>
+      </div>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">{{title}}</h5>
+      <hr>
+      <div class="card-text">
+        <span class="attribute-label">Location: </span>
+        <span class="attribute-value">{{location}}</span>
+      </div>
+      <div class="card-text">
+        <span class="attribute-label">Trip Type: </span>
+        <span class="attribute-value">{{tripType}}</span>
+      </div>
+      <div class="card-text">
+        <span class="attribute-label">Difficulty:  </span>
+        <span *ngFor="let i of [1, 2, 3, 4, 5]" class="fa fa-square" [ngClass]="{'checked': i <= difficulty}"></span>
+      </div>
+      <div class="card-text mb-2">
+        <span class="attribute-label">Highlights: </span>
+        <span class="attribute-value">{{highlights}}</span>
+      </div>
+      <button class="btn btn-primary w-100" (click)="onButtonClick()">Book Now</button>
+    </div>
+  </div>
+  
