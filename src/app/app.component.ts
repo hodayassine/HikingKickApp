@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'HikingKickGroup';
+  onButtonClick() {
+    console.log('Button clicked!');
+    // add your button click logic here
+  }
 }
