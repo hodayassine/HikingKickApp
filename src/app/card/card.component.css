@@ -14,12 +14,10 @@
     width: 100%;
     object-fit: cover;
   }
-  
   .card-img-overlay {
     position: relative;
     height: 14rem;
   }
-  
   .overlay {
     display: flex;
     align-items: center;
@@ -36,27 +34,22 @@
     opacity: 0;
     visibility: hidden;
   }
-  
   .card-img-overlay:hover .overlay {
     opacity: 1;
     visibility: visible;
   }
-  
   .card-title {
     font-family: 'Handlee-Regular', sans-serif;
     font-size: 20px;
     font-weight: bold;
   }
-  
   hr {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
   }
-  
   .attribute-label {
     font-weight: bold;
   }
-  
   .fa-star {
     font-size: 1rem;
     color: #f2b01e;
@@ -86,7 +79,6 @@
     color: lightgrey;
     margin-right: 2px;
   }
-  
   .checked.fa-square {
     color: #8ea791;
   }
